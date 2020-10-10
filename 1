@@ -1,0 +1,43 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+
+
+	int x;
+		cout << "List of figures:\n1)king\n2)queen\n3)bishop\n4)knight\n5)rook" << endl;
+		cout << "Input the fugure number:";
+		cin >> x;
+		if (x == 1)
+		{
+			cout << "This figure can go from K1 to K2" << endl;
+		}
+		if (x == 2)
+		{
+			cout << "This figure can go from K1 to K2" << endl;
+		}
+		if (x == 3)
+		{
+			cout << "This figure can NOT go from K1 to K2" << endl;
+			cout << "Figures 1, 2 and 5 can go from K1 to K2" << endl;
+		}
+		if (x == 4)
+		{
+			cout << "This figure can NOT go from K1 to K2" << endl;
+			cout << "Figures 1, 2 and 5 can go from K1 to K2" << endl;
+		}
+		if (x == 5)
+		{
+			cout << "This figure can go from K1 to K2" << endl;
+		}
+		if (x > 5)
+		{
+			cout << "Please input a number from 1 to 5" << endl;
+		}
+		if (x < 1)
+		{
+			cout << "Please input a number from 1 to 5" << endl;
+		}
+	return 0;
+}
